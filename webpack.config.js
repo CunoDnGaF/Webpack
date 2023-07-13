@@ -42,4 +42,8 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  devServer: {
+      watchFiles: path.resolve(__dirname, 'dist'),
+      port: 9000,
+  },
 };
